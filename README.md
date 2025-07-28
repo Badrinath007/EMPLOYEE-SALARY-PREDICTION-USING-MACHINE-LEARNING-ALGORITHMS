@@ -46,9 +46,9 @@ The following regression techniques are implemented:
 
 ## 🖥️ Tech Stack
 
-- **Frontend/UI**: Streamlit
+- **Frontend/UI**: Streamlit (Optional)
 - **Backend**: Python
-- **ML Libraries**: Scikit-learn, XGBoost, NumPy, Pandas
+- **ML Libraries**: Scikit-learn, XGBoost, NumPy, Pandas (Use required libraries for your project)
 - **Visualization**: Matplotlib, Seaborn
 
 ---
@@ -58,24 +58,23 @@ The following regression techniques are implemented:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/employee-salary-prediction.git
-cd employee-salary-prediction
+git clone https://github.com/Badrinath007/EMPLOYEE-SALARY-PREDICTION-USING-MACHINE-LEARNING-ALGORITHMS.git
+cd EMPLOYEE-SALARY-PREDICTION-USING-MACHINE-LEARNING-ALGORITHMS
 ```
 
 ### 2. Install Dependencies
 
-Make sure you have Python 3.8+ installed. Then install the packages:
+Make sure you have Python 3.10+ installed. Then install the packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run the Application
+### 3. Run the Application (Optional)
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
-
 ---
 
 ## 📁 Project Structure
@@ -83,13 +82,10 @@ streamlit run app.py
 ```
 employee-salary-prediction/
 │
-├── app.py                # Streamlit UI code
-├── model_utils.py        # Model training and evaluation logic
-├── data/                 
-│   └── salary_data.csv   # Cleaned dataset
-├── plots/                # Saved plots (if any)
-├── README.md             # This file
-└── requirements.txt      # Python dependencies
+├── main.py                                   # Streamlit UI code
+├── realistic_salary_prediction_dataset.csv   # Cleaned dataset
+├── README.md                                 # This file
+└── requirements.txt                          # Python dependencies
 ```
 
 ---
@@ -116,17 +112,14 @@ employee-salary-prediction/
 ## 📌 Future Improvements
 
 - Allow CSV upload for user datasets.
-- Include automated hyperparameter tuning (e.g., GridSearchCV).
-- Add SHAP/LIME for model explainability.
 - Deploy the app using Heroku or Streamlit Cloud.
 
 ---
 
 ## 🙋‍♂️ Author
 
-**Badrinath A.**  
-📧 [Your Email]  
-🔗 [LinkedIn/GitHub/Portfolio Link]
+**Badrinath A.**    
+🔗 https://www.linkedin.com/in/badrinatha/
 
 ---
 
