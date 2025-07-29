@@ -17,7 +17,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # Load dataset (replace with your preprocessed file)
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\rabad\OneDrive\Desktop\New folder\ready\realistic_salary_prediction_dataset.csv")  # Replace with your path
+    return pd.read_csv("realistic_salary_prediction_dataset.csv")  # Replace with your path
 
 # -----------------------------
 # App Layout
