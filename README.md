@@ -115,6 +115,10 @@ employee-salary-prediction/
 - Deploy the app using Heroku or Streamlit Cloud.
 
 ---
+## Live Deployment
+https://salarydashboard.streamlit.app/
+
+---
 
 ## 🙋‍♂️ Author
 
